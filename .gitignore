@@ -1,0 +1,14 @@
+target/
+.vscode/
+dependency-reduced-pom.xml
+log4j2-spring-local.xml
+/*/src/main/resources/groovy/local.groovy
+.DS_Store
+.idea
+*.iml
+*.log
+.run/
+./tmp/
+out/
+date/
+build/

@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c06daf9a-9c4c-4b54-b236-c060fa48cf95" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/8.1.1/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/8.1.1/checksums/md5-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/8.1.1/checksums/sha1-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/8.1.1/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/8.1.1/dependencies-accessors/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/8.1.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/8.1.1/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/8.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/8.1.1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/ForeignProApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/io/firstDemo/FirstClientChannelInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/io/firstDemo/FirstServerChannelInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/io/firstDemo/HelloWordServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/io/firstDemo/HelloWordServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/io/firstDemo/HelloWorldClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/io/firstDemo/HelloWorldClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/io/myDemo/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/io/myDemo/MyClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/io/myDemo/MyClientChannelInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/io/myDemo/MyClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/io/myDemo/MyDecoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/io/myDemo/MyEncoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/io/myDemo/MyServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/io/myDemo/MyServerChannelInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/io/myDemo/MyServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/io/secondDemo/BaseClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/io/secondDemo/HWClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/io/secondDemo/HWClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/io/secondDemo/HWServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/io/secondDemo/HWServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/io/secondDemo/SecondClientChannelInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/io/secondDemo/SecondServerChannelInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/io/thirdDemo/BaseThirdClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/io/thirdDemo/ThirdClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/io/thirdDemo/ThirdClientChannelInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/io/thirdDemo/ThirdClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/io/thirdDemo/ThirdServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/io/thirdDemo/ThirdServerChannelInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/io/thirdDemo/ThirdServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/ReadMe.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/foreign/LeedCodeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/foreign/TestClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/foreign/TestControler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/foreign/TestDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/foreign/TestDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/foreign/TestIosCharge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/foreign/TestRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/foreign/test/Test中文.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/internet/WangDao.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/javabase/ScheduledThreadPool/TestMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/javabase/ScheduledThreadPool/TestScheduledThreadPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/javabase/anno_extend/AnnoExtendMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/javabase/anno_extend/AnnoExtendTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/javabase/anno_extend/GrandFather.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/javabase/anno_extend/Parent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/javabase/class_constructor/ConstructorInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/javabase/class_constructor/MainClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/javabase/classhotfix/HotFixClassLoaderAgent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/javabase/classhotfix/HotFixController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/javabase/classhotfix/JarByteHotFix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/javabase/classhotfix/TargetController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/javabase/clone/Testclone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/javabase/collection/arraylist/ListOfTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/javabase/collection/arraylist/SingleListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/javabase/collection/arraylist/SubListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/javabase/completablefuture/CompletableFutureTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/javabase/completablefuture/comparator/ComparatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/javabase/encryption/AES.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/javabase/encryption/CryptoUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/javabase/encryption/RSA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/javabase/encryption/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/javabase/extendFiled/MainClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/javabase/extendFiled/SonClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/javabase/extendFiled/SuperClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/javabase/extendFiled/SuperInter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/javabase/fastjson/JsonMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/javabase/fastjson/JsonTop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/javabase/fastjson/JsonUnder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/javabase/filedeal/FileDeal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/javabase/hashmapkey/ConcurrentHashMapPutIfAbsent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/javabase/hashmapkey/TestKeySet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/javabase/hotfix/HotFixMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/javabase/hotfix/HotFixMethodChange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/javabase/integer/IntegerChu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/javabase/jarfile/JarFileUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/javabase/lambda/MapFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/javabase/lambda/MapToLong.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/javabase/lambda/MapTypeChange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/javabase/lambda/StreamLimit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/javabase/mapfastfail/MapFastFail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/javabase/maptest/treeMap/SimpleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/javabase/mylink/MyLinkList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/javabase/reentrantLock/SyncReentrantTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/javabase/reflect/MethodReturnType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/javabase/schedule_self/SelfScheduledFuture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/javabase/schedule_self/SelfScheduledThreadPoolExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/javabase/simple/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/javabase/simple/As.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/javabase/simple/AttributeNumType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/javabase/simple/AttributeTotalType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/javabase/simple/AttributeType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/javabase/simple/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/javabase/simple/BiFileParse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/javabase/simple/ItemTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/javabase/simple/Maintest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/javabase/simple/MapReadWrite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/javabase/simple/X.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/javabase/sortEntry/TestLinkList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/javabase/sortError/TestSortError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/javabase/staticblock/InitClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/javabase/staticblock/MainClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/javabase/staticfield/StaticFieldTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/javabase/thread/TestDaemonThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/javabase/volatile_test/TestVolatile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/javabase/volatile_test/TestVolatile2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/javabase/volatile_test/TestVolatile3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/jvm/_000_TestSimple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/jvm/_184_TestAllocation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/jvm/_186_TestPretenureSizeThreshold.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/jvm/_187_TestTenuringThreshold.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/jvm/_190_TestHandlePromotion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/jvm/_198_NoteJVMTool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/jvm/_222_TestJConsole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/jvm/_358_NoteClassLoad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/jvm/_358_NoteClassLoad.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/BFS/_000_ReadMe.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/BFS/_111_MinDepth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/BFS/_752_OpenLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/ReadMe.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/daily/_0_00_DaySimple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/daily/_21_03/_3_14_MyHashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/daily/_21_03/_3_15_SpiralMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/daily/_21_03/_3_16_GenerateMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/daily/_21_03/_3_17_NumDistinct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/daily/_21_03/_3_18_ReverseBetween.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/daily/_21_03/_3_19_ParkingSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/daily/_21_03/_3_20_EvalRPN.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/daily/_21_03/_3_21_SetZeroes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/daily/_21_03/_3_22_HammingWeight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/daily/_21_03/_3_23_NestedInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/daily/_21_03/_3_23_NestedIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/daily/_21_03/_3_24_Find132pattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/daily/_21_03/_3_25_DeleteDuplicates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/daily/_21_03/_3_26_DeleteDuplicates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/daily/_21_03/_3_27_RotateRight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/daily/_21_03/_3_28_BSTIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/daily/_21_03/_3_29_ReverseBits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/daily/_21_03/_3_30_SearchMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/daily/_21_03/_3_31_SubsetsWithDup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/daily/_21_04/_4_01_Clumsy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/daily/_21_04/_4_02_Trap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/daily/_21_04/_4_03_LongestCommonSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/daily/_21_04/_4_04_NumRabbits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/daily/_21_04/_4_07_Search.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/daily/_21_04/_4_08_FindMin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/daily/_21_04/_4_09_FindMin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/daily/_21_04/_4_10_IsUgly.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/daily/_21_04/_4_11_NthUglyNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/daily/_21_04/_4_12_LargestNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/daily/_21_04/_4_13_MinDiffInBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/daily/_21_04/_4_14_Trie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/daily/_21_04/_4_15_RobII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/daily/_21_04/_4_16_IsScramble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/daily/_21_04/_4_17_ContainsNearbyAlmostDuplicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/daily/_21_04/_4_18_RemoveDuplicates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/daily/_21_04/_4_19_RemoveDuplicates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/daily/_21_04/_4_20_StrStr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/daily/_21_04/_4_21_NumDecodings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/daily/_21_04/_4_23_LargestDivisibleSubset.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/daily/_21_04/_4_24_CombinationSum4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/daily/_21_04/_4_25_IncreasingBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/daily/_21_04/_4_26_ShipWithinDays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/daily/_21_04/_4_27_RangeSumBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/daily/_21_04/_4_28_JudgeSquareSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/daily/_21_04/_4_29_CanCross.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/daily/_21_04/_4_30_SingleNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/daily/_21_05/_05_05_DeleteAndEarn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/daily/_21_05/_5_01_GetImportance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/daily/_21_05/_5_02_LeastBricks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/daily/_21_05/_5_03_Reverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/daily/_21_05/_5_06_Decode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/daily/_21_05/_5_07_XorOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/ext/CheckRectanglesInter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/ext/FindNthDigit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/helper/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/helper/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/mianshi/GetSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/mianshi/PrintaA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/shuzu/HeapSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/shuzu/JumpArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/shuzu/QuickySort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/shuzu/ThirdMax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/shuzu/Zero_Hundred.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/shuzu/_1562_FindLatestStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/shuzu/_442_FindDuplicates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/shuzu/_53_MaxSubArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/shuzu/_560_subarraySum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/zifuchuan/_1422_StringMaxScore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/zifuchuan/_1641_CountVowelStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/动态规划/_000_ReadMe.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/动态规划/_08_01_WaysToStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/动态规划/_121_MaxProfit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/动态规划/_122_MaxProfitII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/动态规划/_198_Rob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/动态规划/_213_RobII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/动态规划/_322_CoinChange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/动态规划/_337_robIII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/动态规划/_474_FindMaxForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/动态规划/_70_ClimbStairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/动态规划/_jianzhi_42_MaxSubArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/动态规划/_mianshi_16_Massage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/回溯/_000_ReadMe.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/回溯/_46_permute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/回溯/_47_permuteUnique.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/回溯/_78_Subsets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/字符串/_13_RomanToInt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/数据结构/_146_LRU.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/数据结构/_146_LRU_LinkedHashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/数据结构/_146_LRU_Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/树/_100_isSameTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/树/_101_isSymmetric.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/树/_102_levelOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/树/_103_zigzagLevelOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/树/_104_maxDepth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/树/_105_buildTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/树/_106_buildTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/树/_107_levelOrderBottom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/树/_1080_SufficientSubset.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/树/_108_sortedArrayToBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/树/_112_hasPathSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/树/_113_pathSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/树/_114_flatten.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/树/_116_connect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/树/_117_connect_II.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/树/_129_sumNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/树/_144_preorderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/树/_145_postorderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/树/_199_rightSideView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/树/_226_invertTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/树/_230_kthSmallest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/树/_235_lowestCommonAncestor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/树/_236_lowestCommonAncestor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/树/_331_PrefaceTreeVerify.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/树/_337_robIII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/树/_429_levelOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/树/_449_serialize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/树/_450_deleteNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/树/_508_findFrequentTreeSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/树/_513_findBottomLeftValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/树/_515_largestValues.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/树/_538_convertBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/树/_623_addOneRow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/树/_652_findDuplicateSubtrees.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/树/_654_constructMaximumBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/树/_662_widthOfBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/树/_669_trimBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/树/_701_insertIntoBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/树/_814_PruneTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/树/_863_distanceK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/树/_865_subtreeWithAllDeepest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/树/_889_constructFromPrePost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/树/_894_allPossibleFBT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/树/_94_inorderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/树/_95_GenerateTreesII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/树/_971_FlipMatchVoyage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/树/_98_isValidBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/树/_993_isCousins.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/树/_jianzhi_33_verifyPostorder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/树/_jianzhi_55_TreeNodeSolution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/贪心/FindMinArrowShots.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/贪心/GetSmallestString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/贪心/MakeFlowers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/leedcode/贪心/_000_ReadMe.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/mianshiT_2021.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/mysql/B+Tree.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/pandora/bar/BarTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/pandora/bar/MainClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/pandora/bar/PerSubTypeSortInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/productandconsume/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/productandconsume/ProductConsumeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/redis/ReadMe.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/redis/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/redis/node/commond.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/redis/node/io.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/redis/node/底层数据结构.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/redis/node/持久化.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/redis/ranking/RankingControler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/redis/test/EnterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/redis/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/simple/AlgorithmExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/simple/Simple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/simple/String1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/simple/TypeA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/topjoy/SlsLogParseUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/warship/test/wrx/siweidaotu/MindMapPosition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/warship/test/foreign/ForeignProApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/warship/test/redis/RedisTestFirst.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="erPPro" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="erPPro" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="/opt/homebrew/Cellar/maven/3.9.2/libexec" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2PKX63DEQPGR1ckpLb3cKN52w7C" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/erp/project/java/erPPro",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.29770115",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "spring.configuration.checksum": "90048f1dca8d2c7538acd9230f1d4f31",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ForeignProApplication">
+    <configuration name="Simple (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.warship.test.simple.Simple" />
+      <module name="erPPro.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.warship.test.simple.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Simple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.warship.test.simple.Simple" />
+      <module name="erPPro.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.warship.test.simple.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="erPPro [bootJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="bootJar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>false</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="erPPro [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>false</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="erPPro [jar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="jar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>false</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="ForeignProApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="erPPro.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.warship.ForeignProApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.erPPro [bootJar]" />
+        <item itemvalue="Gradle.erPPro [jar]" />
+        <item itemvalue="Gradle.erPPro [build]" />
+        <item itemvalue="Application.Simple" />
+        <item itemvalue="Application.Simple (3)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c06daf9a-9c4c-4b54-b236-c060fa48cf95" name="Changes" comment="" />
+      <created>1683206567808</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1683206567808</updated>
+      <workItem from="1683206568874" duration="2552000" />
+      <workItem from="1683367734033" duration="4334000" />
+      <workItem from="1683807619541" duration="1818000" />
+      <workItem from="1684131116171" duration="16000" />
+      <workItem from="1685347947440" duration="4012000" />
+      <workItem from="1685353430762" duration="1957000" />
+      <workItem from="1685412546202" duration="3202000" />
+      <workItem from="1685527059536" duration="3325000" />
+      <workItem from="1686031799043" duration="599000" />
+      <workItem from="1692182008500" duration="8982000" />
+      <workItem from="1692931593479" duration="2651000" />
+      <workItem from="1692957142942" duration="602000" />
+      <workItem from="1693821627333" duration="4933000" />
+      <workItem from="1693882966673" duration="5776000" />
+      <workItem from="1693906768164" duration="495000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/warship/test/javabase/classhotfix/HotFixClassLoaderAgent.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/warship/test/javabase/classhotfix/JarByteHotFix.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
