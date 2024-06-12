@@ -12,3 +12,4 @@ log4j2-spring-local.xml
 out/
 date/
 build/
+.gradle

@@ -1,6 +1,9 @@
 package com.warship.test.simple;
 
 
+import com.google.common.collect.Lists;
+
+import java.util.ArrayList;
 import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Map;
@@ -87,9 +90,14 @@ public class Simple {
 //            }
 //        });
 
+        ArrayList<Integer> targets = Lists.newArrayList(1, 2, 3, 4);
+        targets.forEach(i -> {
+            if (i == 2) {
+                throw new RuntimeException("11111");
+            }
+        });
+
     }
-
-
 
 
     public static int test(String a, int b) {

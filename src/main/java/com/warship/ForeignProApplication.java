@@ -12,6 +12,8 @@ public class ForeignProApplication {
 		System.out.println("12321312");
 		SpringApplication.run(ForeignProApplication.class, args);
 		System.out.println("SUCCESS.....");
+
+
 	}
 
 }
