@@ -1,4 +1,4 @@
-package com.warship.test.leedcode.树;
+package  com.warship.leedcode.树;
 
 /**
  * 剑指 Offer 33. 二叉搜索树的后序遍历序列

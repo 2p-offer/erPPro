@@ -1,6 +1,6 @@
-package com.warship.test.leedcode.树;
+package  com.warship.leedcode.树;
 
-import com.warship.test.leedcode.helper.TreeNode;
+import  com.warship.leedcode.helper.TreeNode;
 
 /**
  * 538. 把二叉搜索树转换为累加树

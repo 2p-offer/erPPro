@@ -1,4 +1,4 @@
-package com.warship.test.leedcode.daily._21_03;
+package  com.warship.leedcode.daily._21_03;
 
 /**
  * 190. 颠倒二进制位

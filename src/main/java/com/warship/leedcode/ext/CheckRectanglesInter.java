@@ -1,4 +1,4 @@
-package com.warship.test.leedcode.ext;
+package  com.warship.leedcode.ext;
 
 public class CheckRectanglesInter {
 

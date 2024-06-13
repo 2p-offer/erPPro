@@ -1,6 +1,6 @@
-package com.warship.test.leedcode.daily._21_04;
+package  com.warship.leedcode.daily._21_04;
 
-import com.warship.test.leedcode.helper.TreeNode;
+import  com.warship.leedcode.helper.TreeNode;
 
 /**
  * 783. 二叉搜索树节点最小距离

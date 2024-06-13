@@ -1,4 +1,4 @@
-package com.warship.test.leedcode.daily._21_05;
+package  com.warship.leedcode.daily._21_05;
 
 /**
  * 1486. 数组异或操作

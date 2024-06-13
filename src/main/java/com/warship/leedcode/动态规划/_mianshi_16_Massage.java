@@ -1,4 +1,4 @@
-package com.warship.test.leedcode.动态规划;
+package com.warship.leedcode.动态规划;
 
 /**
  * 面试题 17.16. 按摩师

@@ -1,4 +1,4 @@
-package com.warship.test.leedcode.BFS;
+package  com.warship.leedcode.BFS;
 
 import java.util.HashSet;
 import java.util.LinkedList;

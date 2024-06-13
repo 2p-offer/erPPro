@@ -1,4 +1,4 @@
-package com.warship.test.leedcode.贪心;
+package  com.warship.leedcode.贪心;
 
 import java.util.Arrays;
 import java.util.Comparator;

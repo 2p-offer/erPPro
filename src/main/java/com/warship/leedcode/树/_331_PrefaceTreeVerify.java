@@ -1,4 +1,4 @@
-package com.warship.test.leedcode.树;
+package  com.warship.leedcode.树;
 
 /**
  * 331. 验证二叉树的前序序列化

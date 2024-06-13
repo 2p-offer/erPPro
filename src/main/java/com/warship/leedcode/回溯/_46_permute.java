@@ -1,4 +1,4 @@
-package com.warship.test.leedcode.回溯;
+package  com.warship.leedcode.回溯;
 
 import com.alibaba.fastjson2.JSONObject;
 

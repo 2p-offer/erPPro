@@ -1,6 +1,6 @@
-package com.warship.test.leedcode.动态规划;
+package com.warship.leedcode.动态规划;
 
-import com.warship.test.leedcode.helper.TreeNode;
+import  com.warship.leedcode.helper.TreeNode;
 
 import java.util.HashMap;
 import java.util.Map;

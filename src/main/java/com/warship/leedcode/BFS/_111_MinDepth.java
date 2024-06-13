@@ -1,6 +1,6 @@
-package com.warship.test.leedcode.BFS;
+package  com.warship.leedcode.BFS;
 
-import com.warship.test.leedcode.helper.TreeNode;
+import  com.warship.leedcode.helper.TreeNode;
 
 import java.util.LinkedList;
 

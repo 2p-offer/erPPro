@@ -1,6 +1,6 @@
-package com.warship.test.leedcode.树;
+package  com.warship.leedcode.树;
 
-import com.warship.test.leedcode.helper.TreeNode;
+import  com.warship.leedcode.helper.TreeNode;
 
 /**
  * 701. 二叉搜索树中的插入操作

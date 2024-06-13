@@ -1,4 +1,4 @@
-package com.warship.test.leedcode.daily._21_03;
+package  com.warship.leedcode.daily._21_03;
 
 /**
  * 83. 删除排序链表中的重复元素

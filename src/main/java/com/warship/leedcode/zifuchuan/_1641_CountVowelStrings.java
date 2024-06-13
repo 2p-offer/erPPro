@@ -1,4 +1,4 @@
-package com.warship.test.leedcode.zifuchuan;
+package  com.warship.leedcode.zifuchuan;
 
 import java.util.Arrays;
 

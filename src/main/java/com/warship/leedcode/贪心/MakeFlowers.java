@@ -1,4 +1,4 @@
-package com.warship.test.leedcode.贪心;
+package  com.warship.leedcode.贪心;
 
 /**
  * 605. 种花问题

@@ -1,4 +1,4 @@
-package com.warship.test.leedcode.贪心;
+package  com.warship.leedcode.贪心;
 
 /**
  * 1663. 具有给定数值的最小字符串

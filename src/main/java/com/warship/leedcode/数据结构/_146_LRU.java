@@ -1,4 +1,4 @@
-package com.warship.test.leedcode.数据结构;
+package  com.warship.leedcode.数据结构;
 
 import java.util.HashMap;
 import java.util.Map;

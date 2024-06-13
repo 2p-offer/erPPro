@@ -1,4 +1,4 @@
-package com.warship.test.leedcode.树;
+package  com.warship.leedcode.树;
 
 import java.util.LinkedList;
 import java.util.Queue;

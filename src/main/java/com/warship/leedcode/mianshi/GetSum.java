@@ -1,4 +1,4 @@
-package com.warship.test.leedcode.mianshi;
+package  com.warship.leedcode.mianshi;
 
 public class GetSum {
     public static void main(String[] args) {

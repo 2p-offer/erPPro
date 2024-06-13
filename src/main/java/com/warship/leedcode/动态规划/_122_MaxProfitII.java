@@ -1,4 +1,4 @@
-package com.warship.test.leedcode.动态规划;
+package com.warship.leedcode.动态规划;
 
 /**
  * 122. 买卖股票的最佳时机 II

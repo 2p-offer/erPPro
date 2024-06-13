@@ -1,4 +1,4 @@
-package com.warship.test.leedcode.helper;
+package  com.warship.leedcode.helper;
 
 public class ListNode {
     public int val;

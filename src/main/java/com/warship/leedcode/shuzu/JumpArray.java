@@ -1,4 +1,4 @@
-package com.warship.test.leedcode.shuzu;
+package  com.warship.leedcode.shuzu;
 
 /**
  * 跳跃游戏

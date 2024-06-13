@@ -1,4 +1,4 @@
-package com.warship.test.leedcode.daily._21_05;
+package  com.warship.leedcode.daily._21_05;
 
 /**
  * 1720. 解码异或后的数组

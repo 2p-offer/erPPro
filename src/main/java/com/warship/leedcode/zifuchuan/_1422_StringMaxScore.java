@@ -1,4 +1,4 @@
-package com.warship.test.leedcode.zifuchuan;
+package  com.warship.leedcode.zifuchuan;
 
 /**
  * 1422. 分割字符串的最大得分

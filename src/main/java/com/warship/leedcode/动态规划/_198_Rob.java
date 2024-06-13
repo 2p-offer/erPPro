@@ -1,4 +1,4 @@
-package com.warship.test.leedcode.动态规划;
+package com.warship.leedcode.动态规划;
 
 /**
  * 198. 打家劫舍

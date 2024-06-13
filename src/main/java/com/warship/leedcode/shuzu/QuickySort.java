@@ -1,4 +1,4 @@
-package com.warship.test.leedcode.shuzu;
+package  com.warship.leedcode.shuzu;
 
 import java.util.Arrays;
 import java.util.Random;

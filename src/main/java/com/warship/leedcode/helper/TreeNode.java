@@ -1,4 +1,4 @@
-package com.warship.test.leedcode.helper;
+package  com.warship.leedcode.helper;
 
 import java.util.LinkedList;
 import java.util.Queue;

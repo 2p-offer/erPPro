@@ -1,4 +1,4 @@
-package com.warship.test.leedcode.daily._21_04;
+package  com.warship.leedcode.daily._21_04;
 
 /**
  * 面试题 17.21. 直方图的水量

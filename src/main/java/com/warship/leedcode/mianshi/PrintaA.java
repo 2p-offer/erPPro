@@ -1,4 +1,4 @@
-package com.warship.test.leedcode.mianshi;
+package  com.warship.leedcode.mianshi;
 
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.atomic.AtomicBoolean;

@@ -1,4 +1,4 @@
-package com.warship.test.leedcode.daily;
+package  com.warship.leedcode.daily;
 
 public class _0_00_DaySimple {
 
